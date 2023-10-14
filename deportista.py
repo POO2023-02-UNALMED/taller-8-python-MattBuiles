@@ -1,16 +1,16 @@
 class Deportista:
-  def __init__(self, añosPracticando: int, deporte="futbol"):
+  def __init__(self, añosPracticando, deporte="futbol"):
     self._deporte = deporte
     self._añosPracticando = añosPracticando
 
-  def getDeporte(self) -> str:
+  def getDeporte(self):
     return self._deporte
 
-  def setDeporte(self, deporte: str):
+  def setDeporte(self, deporte):
     self._deporte = deporte
 
-  def getAñosPracticando(self) -> int:
+  def getAñosPracticando(self):
     return self._añosPracticando
 
-  def setAñosPracticando(self, añosPracticando: int):
+  def setAñosPracticando(self, añosPracticando):
     self._añosPracticando = añosPracticando
