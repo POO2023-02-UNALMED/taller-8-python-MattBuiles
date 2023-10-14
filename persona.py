@@ -5,26 +5,26 @@ class Persona:
     self._altura = altura
     self._sexo = sexo
 
-  def get_nombre(self) -> str:
+  def getNombre(self) -> str:
     return self._nombre
 
-  def set_nombre(self, nombre: str) -> None:
+  def setNombre(self, nombre: str) -> None:
     self._nombre = nombre
 
-  def get_edad(self) -> int:
+  def getEdad(self) -> int:
     return self._edad
 
-  def set_edad(self, edad: int) -> None:
+  def setEdad(self, edad: int) -> None:
     self._edad = edad
 
-  def get_altura(self) -> str:
+  def getAltura(self) -> str:
     return self._altura
 
-  def set_altura(self, altura: str) -> None:
+  def setAltura(self, altura: str) -> None:
     self._altura = altura
 
-  def get_sexo(self) -> str:
+  def getSexo(self) -> str:
     return self._sexo
 
-  def set_sexo(self, sexo: str) -> None:
+  def setSexo(self, sexo: str) -> None:
     self._sexo = sexo
